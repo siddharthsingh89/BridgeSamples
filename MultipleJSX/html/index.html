@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<script src="../js/CSInterface.js"></script>
+<script src="../js/main.js"></script>
+
+
+<title>Multiple JSX Files</title>
+
+
+
+</head>
+
+<body onload="loadJSX()">
+<div id="content">
+	 <h4> Click to call methods of .\jsx\BridgeAppLib.jsx using EvalScript </h4>
+	 <input type="button" onClick="CallAppLibMethods()" id="mybutton1"  value = "BridgeAppLib.jsx"/>
+</br>
+	 <h4> Click to call methods of .\jsx\BridgeDocumentLib.jsx</h4>
+	 <input type="button" onClick="CallDocLibMethods()" id="mybutton2"  value = "BridgeDocumentLib.jsx" />
+</br>
+
+<div> Response : <span id="response"> </span></div>
+</div>
+
+</body>
+</html>
+
