@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.adobe.Samples" ExtensionBundleVersion="1.0" Version="7.0"> <!-- MAJOR-VERSION-UPDATE-MARKER -->
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="HelloBridge" ExtensionBundleVersion="1.0" Version="7.0"> <!-- MAJOR-VERSION-UPDATE-MARKER -->
     <ExtensionList>
         <Extension Id="HelloBridge" Version="1.0"/>  
 			
