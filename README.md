@@ -281,8 +281,8 @@
         class="Apple-tab-span">&nbsp;</span>
 </p>
 <p>Example-</p>
+
 ```xml
-<DispatchInfo>
 <Resources>
 <MainPath>./index.html</MainPath> 
 <CEFCommandLine> 
