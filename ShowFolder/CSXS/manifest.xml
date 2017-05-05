@@ -6,7 +6,7 @@
     </ExtensionList>
     <ExecutionEnvironment>
         <HostList>
-            <Host Name="KBRG" Version="[7.1,7.9]" />
+            <Host Name="KBRG" Version="[8.0,8.9]" />
         </HostList>
         <LocaleList>
             <Locale Code="All"/>
