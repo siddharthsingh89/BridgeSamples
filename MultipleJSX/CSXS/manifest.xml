@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="MultipleJSX" ExtensionBundleVersion="1.0" Version="7.0"> <!-- MAJOR-VERSION-UPDATE-MARKER -->
     <ExtensionList>
-        <Extension Id="MultipleJSX" Version="6.1.0"/>  
+        <Extension Id="MultipleJSX" Version="1.0"/>  
 			
     </ExtensionList>
     <ExecutionEnvironment>
         <HostList>
-            <Host Name="KBRG" Version="[6.0,9.9]" />
+            <Host Name="KBRG" Version="[8.0,9.9]" />
         </HostList>
         <LocaleList>
             <Locale Code="All"/>
         </LocaleList>
         <RequiredRuntimeList>
-            <RequiredRuntime Name="CSXS" Version="6.0"/> <!-- MAJOR-VERSION-UPDATE-MARKER -->
+            <RequiredRuntime Name="CSXS" Version="7.0"/> <!-- MAJOR-VERSION-UPDATE-MARKER -->
         </RequiredRuntimeList>
     </ExecutionEnvironment>
     <DispatchInfoList>      
