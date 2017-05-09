@@ -9,7 +9,7 @@
 <ul>
     <li>Adobe Bridge Version 8.0 and above.</li>
     <li>Bridge Sample Project.(<a href="https://github.com/siddharthsingh89/BridgeSamples">https://github.com/siddharthsingh89/BridgeSamples</a>)</li>
-    <li>The ZXPSignCmd signing utility to sign the extensions and create signed .zxp bundles for Add-Ons
+	    <li>The <a href="https://github.com/Adobe-CEP/CEP-Resources/tree/master/ZXPSignCMD/4.0.7/">ZXPSignCmd signing utility </a> to sign the extensions and create signed .zxp bundles for Add-Ons
         or direct distribution.&nbsp;</li>
 </ul>
 <p><strong>Steps</strong></p>
