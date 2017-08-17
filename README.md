@@ -149,7 +149,7 @@
     <li>Restart Mac and Launch Bridge.</li>
     <li>The Extension should work without signing.</li>
 </ol>
-<p>(The plist is also located at <strong>/Users/&lt;username&gt;/Library/Preferences/com.adobe.CSXS.7.plist</strong>)</p>
+<p>(The plist is also located at <strong>/Users/&lt;username&gt;/Library/Preferences/com.adobe.CSXS.8.plist</strong>)</p>
 <h3><ac:image ac:border="true" ac:height="250"><ri:attachment ri:filename="image2017-3-27 14:10:29.png" /></ac:image></h3>
 <h2><strong>Debugging in Chrome</strong></h2>
 <p>CEP supports remote debugging for HTML extensions. You can use Chrome developer tools to debug your Extension.</p>
@@ -192,7 +192,7 @@
     2 - Warn<br />&bull; 3 - Info<br />&bull; 4 - Debug<br />&bull; 5 - Trace<br />&bull; 6 - All</p>
 <p>The LogLevel key can be updated at the following location (The application should be restarted for the
     log level changes to take effect):</p>
-<p>&bull; Win: regedit &gt; HKEY_CURRENT_USER/Software/Adobe/CSXS.7<br />&bull; Mac: /Users/USERNAME/Library/Preferences/com.adobe.CSXS.8.plist</p>
+<p>&bull; Win: regedit &gt; HKEY_CURRENT_USER/Software/Adobe/CSXS.8<br />&bull; Mac: /Users/USERNAME/Library/Preferences/com.adobe.CSXS.8.plist</p>
 
 <h1><strong>Signing and Packaging the Extension</strong></h1>
 <p><strong><br /></strong></p>
