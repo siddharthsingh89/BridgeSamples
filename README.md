@@ -35,7 +35,7 @@
     it. The corresponding type identifier in the extension manifest is <strong>Modeless</strong>.</p>
 <p>&nbsp;</p>
 <h3>CEP Runtime&nbsp;</h3>
-<p>Bridge will support CEP 7.0</p>
+<p>Bridge will support CEP 8.0</p>
 <h1>Important Manifest Changes for Bridge CEP Extensions</h1>
 <ul>
     <li>Correct ExtensionManifest Version should be used in the manifest.<br /><br />&lt;ExtensionManifest
@@ -139,13 +139,13 @@
 
 <ol>
     <li>Open Registry Editor.</li>
-    <li>Go to &nbsp;HKEY_CURRENT_USER/Software/Adobe/CSXS.7, then add a new entry <strong>PlayerDebugMode</strong>        of type &quot;string&quot; with the value of &quot;<strong>1</strong>&quot;.</li>
+    <li>Go to &nbsp;HKEY_CURRENT_USER/Software/Adobe/CSXS.8, then add a new entry <strong>PlayerDebugMode</strong>        of type &quot;string&quot; with the value of &quot;<strong>1</strong>&quot;.</li>
     <li>Relaunch Bridge.</li>
     <li>The Extension will work without signing.<br /><br /></li>
 </ol>
 <p><strong>Mac-</strong></p>
 <ol>
-    <li>In the terminal, type: <strong>defaults write com.adobe.CSXS.7 PlayerDebugMode 1 </strong></li>
+    <li>In the terminal, type: <strong>defaults write com.adobe.CSXS.8 PlayerDebugMode 1 </strong></li>
     <li>Restart Mac and Launch Bridge.</li>
     <li>The Extension should work without signing.</li>
 </ol>
@@ -192,7 +192,7 @@
     2 - Warn<br />&bull; 3 - Info<br />&bull; 4 - Debug<br />&bull; 5 - Trace<br />&bull; 6 - All</p>
 <p>The LogLevel key can be updated at the following location (The application should be restarted for the
     log level changes to take effect):</p>
-<p>&bull; Win: regedit &gt; HKEY_CURRENT_USER/Software/Adobe/CSXS.7<br />&bull; Mac: /Users/USERNAME/Library/Preferences/com.adobe.CSXS.7.plist</p>
+<p>&bull; Win: regedit &gt; HKEY_CURRENT_USER/Software/Adobe/CSXS.7<br />&bull; Mac: /Users/USERNAME/Library/Preferences/com.adobe.CSXS.8.plist</p>
 
 <h1><strong>Signing and Packaging the Extension</strong></h1>
 <p><strong><br /></strong></p>
